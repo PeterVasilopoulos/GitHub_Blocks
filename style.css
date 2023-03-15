@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+img {
+    height: 200px;
+}
+
+.img-area {
+    padding: 20px;
+    margin: 20px;
+}
+
+.top {
+    display: flex;
+    background-color: rgb(64, 211, 211);
+    justify-content: space-between;
+}
+
+.middle {
+    display: flex;
+    background-color: rgb(228, 162, 189);
+    justify-content: space-evenly;
+}
+
+.bottom {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.credit {
+    font-size: 20px;
+    text-align: center;
+}
